@@ -2,8 +2,6 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from matplotlib import style
 from scipy import signal
-import numpy as np
-import pandas as pd
 
 
 # Detrends given data
@@ -70,5 +68,5 @@ def liveplot(data, interval):
         ax1.plot(xs, ys)  # Plots data again
 
     # Uses the animate function to plot in fig every 500 miliseconds
-    ani = animation.FuncAnimation(fig, animate, interval=500)
+    animation.FuncAnimation(fig, animate, interval=500)
     plt.show()
