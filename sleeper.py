@@ -15,7 +15,7 @@ def detrend(data):
 
 # Highpass filter function
 #   inputs - data: data in list form
-#            cutoff: cutoff frequency
+#            cutoff: cutoff frequency 
 #            fs: data sampled
 #            order: order of the butterworth filter
 #   returns - filtered output
